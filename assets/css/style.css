@@ -1,5 +1,7 @@
 html {
   background-color: hsl(0, 0%, 93%) ;
+  max-width: 60rem;
+  margin: 0 auto;
 }
 
 p {
