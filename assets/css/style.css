@@ -3,10 +3,7 @@ html {
   width: 100%;
   max-width: 60rem;
   margin: 0 auto;
-}
-
-p {
-	font-family: 'Pretendard Variable';
+  font-family: 'Pretendard Variable';
 }
 
 .grid {
