@@ -1,0 +1,106 @@
+html {
+  background-color: hsl(0, 0%, 93%) ;
+}
+
+p {
+	font-family: 'Pretendard Variable';
+}
+
+.grid {
+  position: relative;
+  display: grid;
+  padding: 1rem;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-auto-flow: dense;
+
+  /*
+  background-color: wheat;
+  border-style: solid;
+  */
+}
+
+.cell {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1;
+
+  margin-bottom: 2rem;
+
+  /*
+  background-color: violet;
+  border-style: dotted;
+  border-color: red;
+  */
+}
+
+.poster {
+  z-index: 4;
+  position: absolute;
+  height: 100%;
+  aspect-ratio: 2/3;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+  /*
+  border-color: aqua;
+  border-width: 2px;
+  border-style: solid;
+  */
+}
+
+.poster img {
+  position: absolute;
+  max-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.comment {
+  z-index: 3;
+  position: absolute;
+  height: 100%;
+  aspect-ratio: 2/3;
+
+  /*
+  border-color:chartreuse;
+  border-width: 3px;
+  border-style: solid;
+  */
+}
+
+.comment p {
+  display: block;
+  margin: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: .8rem 0.6rem ;
+  box-sizing: border-box;
+
+
+  color: white;
+  font-size: .7rem;
+  line-height: 1.2rem;
+  word-break: break-all;
+  text-align: justify;
+  text-align-last: left;
+
+  background-color: hsl(0, 0%, 10%) ;
+  /* border-style: dashed; */
+}
+
+.poster:hover + .comment,
+.comment:hover {
+  transform: translateX(15%) rotate(8deg);
+}
+
