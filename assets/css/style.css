@@ -1,12 +1,48 @@
 html {
-  background-color: hsl(0, 0%, 93%) ;
+  background-color: hsl(0, 0%, 95%) ;
   width: 100%;
-  margin: 0 auto;
+  box-sizing: border-box;
+
+  padding: 0 1rem;
+  max-width:60rem;
   font-weight: 800;
+  line-height: 2rem;
 }
 
 * {
   font-family: 'Pretendard Variable';
+  font-size: 1.2rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+a, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style-position: inside;
+  line-height: 2rem;
+  padding-left: 0;
+}
+
+.keyword {
+  list-style: none;
+}
+
+li {
+  padding-left: 1rem;
+}
+
+.container {
+  width: 100%;
+  height: 20rem;
+  border: 1px solid;
+  border-radius: 50%;
+
 }
 
 .grid {
@@ -107,3 +143,6 @@ html {
   transform: translateX(15%) rotate(8deg);
 }
 
+.posts     { float:left; background:#000; color:#fff;
+  padding:0.2em; text-align:center; }
+.container { width:50em; max-width:100%; }
