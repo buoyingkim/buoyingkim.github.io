@@ -37,14 +37,6 @@ li {
   padding-left: 1rem;
 }
 
-.container {
-  width: 100%;
-  height: 20rem;
-  border: 1px solid;
-  border-radius: 50%;
-
-}
-
 .grid {
   position: relative;
   display: grid;
@@ -143,6 +135,15 @@ li {
   transform: translateX(15%) rotate(8deg);
 }
 
-.posts     { float:left; background:#000; color:#fff;
-  padding:0.2em; text-align:center; }
-.container { width:50em; max-width:100%; }
+.posts {
+  float:left; background:#000; color:#fff;
+  padding:0.2em; text-align:center;
+}
+
+.container {
+  width: 100%;
+  height: 20rem;
+  border: 1px solid;
+  border-radius: 50%;
+  width:50em; max-width:100%;
+}
