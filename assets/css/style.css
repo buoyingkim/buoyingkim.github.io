@@ -5,7 +5,7 @@ html {
 
   padding: 0 1rem;
   max-width: 60rem;
-  margin: 0 auto;
+  margin: 0 1rem;
   font-weight: 700;
   line-height: 2rem;
 }
@@ -27,8 +27,13 @@ a, a:focus, a:active {
 
 ul {
   list-style-position: inside;
-  line-height: 2rem;
+  line-height: 2.5rem;
   padding-left: 0;
+}
+
+a:hover {
+  color: white;
+  background-color: blue;
 }
 
 .thoughts {
@@ -44,7 +49,7 @@ li {
   display: grid;
   padding: 1rem;
   grid-gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   grid-auto-flow: dense;
 
   /*
@@ -144,8 +149,8 @@ li {
 }
 
 .keyword:hover,
-.keyboard + a {
-  background-color: aqua;
+.keyword + a {
+  background-color: blue;
   cursor: pointer;
 }
 

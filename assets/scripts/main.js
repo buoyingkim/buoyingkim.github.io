@@ -17,7 +17,7 @@ keyword.forEach(function(keyword) {
     
     keyword.style.marginTop = top + 'px';
     keyword.style.marginLeft = left + 'px';
-    keyword.style.color = 'hsl(H, 100%, 40%)'.replace(/H/g, hue);
+    keyword.style.color = 'hsl(H, 100%, 50%)'.replace(/H/g, hue);
 })
 
 
