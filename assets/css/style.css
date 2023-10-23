@@ -137,11 +137,10 @@ li {
 }
 
 .keyword {
-  float: left;
-  padding: 2rem;
+  position: absolute;
   text-align: center;
-  width: 500px;
-  height: 500px;
+  background-color: bisque;
+  max-width: fit-content;
 }
 
 .oval {
@@ -150,4 +149,13 @@ li {
   border: 1px solid;
   border-radius: 50%;
   max-width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: aquamarine;
+  width: 70%;
+  height: 70%;
 }
