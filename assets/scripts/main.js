@@ -26,7 +26,6 @@ keyword.forEach((keyword) => {
     keyword.addEventListener('click', function () {
         var keywordtext = event.target.innerText;
         var link = 'https://www.google.com/search?q=' + keywordtext;
-        window.open(link)
-        console.log(link);
+        window.open(link);
     })
 })
