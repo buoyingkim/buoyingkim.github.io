@@ -5,9 +5,6 @@ var width = container.offsetWidth;
 var keywordH = keyword[0].offsetHeight;
 var keywordW = keyword[0].offsetWidth;
 
-    console.log(keywordW);
-
-
 keyword.forEach(function(keyword) {
     var top = Math.random() * ( height - keywordH );
     var left = Math.random() * ( width - keywordW );
@@ -21,4 +18,15 @@ keyword.forEach(function(keyword) {
     keyword.style.marginTop = top + 'px';
     keyword.style.marginLeft = left + 'px';
     keyword.style.color = 'hsl(H, 100%, 40%)'.replace(/H/g, hue);
+})
+
+
+var keywordclick = document.getElementsByClassName("keyword");
+keyword.forEach((keyword) => {
+    keyword.addEventListener('click', function () {
+        var keywordtext = event.target.innerText;
+        var link = 'https://www.google.com/search?q=' + keywordtext;
+        window.open(link)
+        console.log(link);
+    })
 })

@@ -143,6 +143,12 @@ li {
   max-width: fit-content;
 }
 
+.keyword:hover,
+.keyboard + a {
+  background-color: aqua;
+  cursor: pointer;
+}
+
 .oval {
   width: 100%;
   aspect-ratio: 10/3;
