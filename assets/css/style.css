@@ -16,7 +16,17 @@ grid {
   font-size: 1.2rem;
 }
 
-h1,
+a, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: white;
+  background-color: blue;
+}
+
+
 h1 a {
   font-size: 2rem;
   font-weight: 400;
@@ -26,10 +36,13 @@ h1 a {
   color: white;
 }
 
-a, a:focus, a:active {
-  text-decoration: none;
-  color: inherit;
+h1:hover + a,
+h1:hover a {
+  cursor: pointer;
+  background-color: black;
 }
+
+
 
 ul {
   list-style-position: inside;
@@ -37,10 +50,7 @@ ul {
   padding-left: 0;
 }
 
-a:hover {
-  color: white;
-  background-color: blue;
-}
+
 
 .thoughts {
   list-style: none;
