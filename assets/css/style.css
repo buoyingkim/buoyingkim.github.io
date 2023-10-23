@@ -139,7 +139,6 @@ li {
 .keyword {
   position: absolute;
   text-align: center;
-  background-color: bisque;
   max-width: fit-content;
 }
 
@@ -155,7 +154,6 @@ li {
 }
 
 .container {
-  background-color: aquamarine;
   width: 70%;
   height: 70%;
 }
