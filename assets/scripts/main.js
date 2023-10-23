@@ -17,7 +17,5 @@ function randomize() {
                           + buffer(0.25) + " "
                           + buffer(0.25, defaultMax, 0.5) + " "
                           + buffer();
-    posts[p].style.width = buffer(8);
-    posts[p].style.height = buffer(5);
   }
 }

@@ -136,8 +136,11 @@ li {
 }
 
 .posts {
-  float:left; background:#000; color:#fff;
-  padding:0.2em; text-align:center;
+  float:left;
+  background:#000;
+  color:#fff;
+  padding:0.2em;
+  text-align:center;
 }
 
 .container {
