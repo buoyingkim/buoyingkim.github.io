@@ -19,6 +19,11 @@ grid {
 h1,
 h1 a {
   font-size: 2rem;
+  font-weight: 400;
+  width: fit-content;
+  padding: 1rem;
+  background-color: black;
+  color: white;
 }
 
 a, a:focus, a:active {
