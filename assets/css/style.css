@@ -4,7 +4,8 @@ grid {
   width: 100%;
   box-sizing: border-box;
 
-  padding: 0 1rem;
+  padding-top: 3rem;
+  padding-left: 1rem;
   max-width: 60rem;
   margin: 0 auto;
   font-weight: 700;
@@ -26,6 +27,9 @@ a:hover {
   background-color: blue;
 }
 
+h1 {
+  padding-bottom: 1rem;
+}
 
 h1 a {
   font-size: 2rem;
