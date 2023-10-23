@@ -6,7 +6,7 @@ html {
   padding: 0 1rem;
   max-width: 60rem;
   margin: 0 auto;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 2rem;
 }
 
@@ -144,7 +144,7 @@ li {
 
 .oval {
   width: 100%;
-  aspect-ratio: 5/2;
+  aspect-ratio: 10/3;
   border: 1px solid;
   border-radius: 50%;
   max-width:100%;
